@@ -1,0 +1,46 @@
+{
+    "intro": {
+        "title": "A history of everything you copy",
+        "description": "Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices."
+    },
+    "feature-tracking": {
+        "title": "Keep track of your snippets",
+        "description": "Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everyting."
+    },
+    "quick-search": {
+        "title": "Quick Search",
+        "description": "Easily search your snippets by content, category, web address, application, and more."
+    },
+    "icloud-sync": {
+        "title": "iCloud Sync",
+        "description": "Instantly saves and syncs snippets across all your devices."
+    },
+    "complete-history": {
+        "title": "Complete History",
+        "description": "Retrieve any snippets from the first moment you started using the app."
+    },
+    "feature-accessibility": {
+        "title": "Access Clipboard anywhere",
+        "description": "Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks."
+    },
+    "feature-supercharge": {
+        "title": "Supercharge your workflow",
+        "description": "We've got the tools to boost your productivity."
+    },
+    "create-blacklists": {
+        "title": "Create blacklists",
+        "description": "Ensure sensitive information never makes its way to your clipboard by excluding certain sources."
+    },
+    "plain-text-snippets": {
+        "title": "Plain text snippets",
+        "description": "Remove unwanted formaatting from copied text for a consistent look."
+    },
+    "sneak-preview":{
+        "title": "Sneak preview",
+        "description": "Quick preview of all snippets on your Clipboard for easy access."
+    },
+    "feature-clipboard-devices":{
+        "title": "Clipboard for iOS and Mac OS",
+        "description": "Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard."
+    }
+}
