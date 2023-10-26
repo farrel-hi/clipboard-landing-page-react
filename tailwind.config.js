@@ -5,7 +5,9 @@ module.exports = {
     "./src/App.js",
     "./src/components/BigCenteredTitleDescription.js",
     "./src/components/SmallLeftTitleDescription.js",
-    "./src/components/IconCenteredTitleDescription.js"
+    "./src/components/IconCenteredTitleDescription.js",
+    "./src/components/Footer.js",
+    "./src/components/DownloadButtons.js"
   ],
   theme: {
     // Define the Responsive Breakpoints. 
@@ -15,9 +17,13 @@ module.exports = {
     },
     colors: {
       "cyan": "#26baa4",
+      "cyan-glow": "#5dccbb",
       "blue": "#6173ff",
+      "blue-glow":"#8896ff",
+      "gray": "#f5f6f8",
       "gray-light": "#9fabb2",
-      "gray-dark": "#4c545d"
+      "gray-dark": "#4c545d",
+      "white": "#ffffff"
     },
     fontFamily:{
       display: ["Bai Jamjuree",'sans-serif']
