@@ -3,7 +3,7 @@ import React from "react";
 function DownloadButtons() {
   return(
     <div className="
-    flex-row text-white font-semibold text-sm 
+    flex-column text-white font-semibold text-sm 
     [&>*]:shadow-md
     [&>*]:rounded-full 
     [&>*]:my-2.5
