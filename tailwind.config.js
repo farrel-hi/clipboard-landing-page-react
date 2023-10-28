@@ -31,7 +31,13 @@ module.exports = {
     // fontSize:{
     //   base: "18px"
     // },
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'mobile-bg': "url('./images/bg-header-mobile.png')",
+        'desktop-bg': "url('./images/bg-header-desktop.png')",
+        'placeholder': "url('./images/bg-placeholder.jpg')"
+      }
+    },
   },
   plugins: [],
 }

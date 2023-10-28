@@ -5,10 +5,11 @@ function DownloadButtons() {
     <div className="
     flex-row text-white font-semibold text-sm 
     [&>*]:shadow-md
-    [&>*]:rounded-3xl 
+    [&>*]:rounded-full 
     [&>*]:my-2.5
     [&>*]:w-4/5
-    [&>*]:h-10
+    [&>*]:h-14
+    [&>*]:text-lg
     "
     >
       <button type="button" className="bg-cyan shadow-cyan-500/50 active:bg-cyan-glow">Download for iOS</button>
