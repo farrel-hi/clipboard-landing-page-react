@@ -26,11 +26,11 @@ function App() {
   return (
     <div className="App font-display">
       {/* Header Background */}
-      <div className="absolute top-0 left-0 -z-10 min-w-full h-1/2 bg-mobile-bg bg-no-repeat bg-cover">
+      <div className="absolute top-0 left-0 -z-10 min-w-full h-1/2 xl:bg-desktop-bg bg-mobile-bg bg-no-repeat bg-cover">
       </div>
 
       {/* Section One: Intro */}
-      <section className='mb-20'>
+      <section className='mb-20 flex-column'>
         {/* Logo */}
         <div className="flex justify-center py-5 mt-20">
           <img src={logo} className="h-30" alt="logo" />
@@ -50,20 +50,23 @@ function App() {
         title={data.feature_tracking.title}
         desc={data.feature_tracking.description}
       />
-      <section className='flex-row justify-center items-center w-screen mb-20'>
-        <img src={computer} alt='computer' className='px-10' />
-        <SmallLeftTitleDescription
-          title={data.quick_search.title}
-          desc={data.quick_search.description}
-        />
-        <SmallLeftTitleDescription
-          title={data.icloud_sync.title}
-          desc={data.icloud_sync.description}
-        />
-        <SmallLeftTitleDescription
-          title={data.complete_history.title}
-          desc={data.complete_history.description}
-        />
+      <section className='flex-row justify-center items-center w-full mb-20 xl:flex xl:items-start'>
+        <img src={computer} alt='computer' className='computer px-10 xl:relative xl:-left-40 xl:px-0 xl:object-fill' />
+        <aside className='xl:mt-20'>
+          <SmallLeftTitleDescription
+            title={data.quick_search.title}
+            desc={data.quick_search.description}
+          />
+          <SmallLeftTitleDescription
+            title={data.icloud_sync.title}
+            desc={data.icloud_sync.description}
+          />
+          <SmallLeftTitleDescription
+            title={data.complete_history.title}
+            desc={data.complete_history.description}
+          />
+        </aside>
+
       </section>
 
 
@@ -72,27 +75,30 @@ function App() {
         title={data.feature_accessibility.title}
         desc={data.feature_accessibility.description}
       />
-      <section className='flex-row justify-center items-center w-screen mb-20'>
-        <img src={devices} alt='computer' className='px-5' />
-        <SmallLeftTitleDescription
+      <section className='flex-column justify-center items-center w-full mb-20'>
+        <img src={devices} alt='computer' className='px-5 xl:mx-auto' />
+        <BigCenteredTitleDescription
           title={data.feature_supercharge.title}
           desc={data.feature_supercharge.description}
         />
-        <IconCenteredTitleDescription
-          icon={icon_blacklist}
-          title={data.create_blacklists.title}
-          desc={data.create_blacklists.description}
-        />
-        <IconCenteredTitleDescription
-          icon={icon_text}
-          title={data.plain_text_snippets.title}
-          desc={data.plain_text_snippets.description}
-        />
-        <IconCenteredTitleDescription
-          icon={icon_preview}
-          title={data.sneak_preview.title}
-          desc={data.sneak_preview.description}
-        />
+        <div className='xl:flex xl:px-60 [&>*]:xl:w-2/3'>
+          <IconCenteredTitleDescription
+            icon={icon_blacklist}
+            title={data.create_blacklists.title}
+            desc={data.create_blacklists.description}
+          />
+          <IconCenteredTitleDescription
+            icon={icon_text}
+            title={data.plain_text_snippets.title}
+            desc={data.plain_text_snippets.description}
+          />
+          <IconCenteredTitleDescription
+            icon={icon_preview}
+            title={data.sneak_preview.title}
+            desc={data.sneak_preview.description}
+          />
+        </div>
+
       </section>
 
       {/* Section Four: Partners */}
@@ -100,6 +106,8 @@ function App() {
         flex-column justify-center items-center
         [&>*]:my-20
         [&>*]:mx-auto
+        xl:flex
+        xl:mx-40
       '>
         {/* <p>Hello</p> */}
         <img src={partner_google} alt='google-log' />

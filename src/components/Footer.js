@@ -3,12 +3,12 @@ import logo from "../images/logo.svg";
 
 function Footer() {
   return (
-    <footer className="flex-column bg-gray py-10 px-20">
+    <footer className="flex-column bg-gray py-10 px-20 xl:flex xl:justify-between xl:items-center xl:px-60">
       <div className="flex justify-center py-5">
         <img src={logo} className="h-12" alt="logo" />
       </div>
-      <nav>
-        <ul className="text-gray-dark text-lg [&>*]:my-5">
+      <nav className="xl:w-3/4">
+        <ul className="text-gray-dark text-lg [&>*]:my-5 xl:grid xl:grid-cols-3 xl:text-left xl:gap-x-20 xl:[&>*]:my-2 xl:pr-80">
           <li className="active:text-cyan"><button type="button">FAQs</button></li>
           <li className="active:text-cyan"><button type="button">Contact Us</button></li>
           <li className="active:text-cyan"><button type="button">Privacy Policy</button></li>
@@ -16,7 +16,7 @@ function Footer() {
           <li className="active:text-cyan"><button type="button">Install Guide</button></li>
         </ul>
       </nav>
-      <div className="pt-10 flex justify-evenly h-fit [&>*]:h-8 [&>*]:w-8 [&>*]:fill-gray-dark">
+      <div className="pt-10 flex justify-evenly h-fit [&>*]:h-8 [&>*]:w-8 [&>*]:fill-gray-dark xl:w-52 xl:pt-0">
         {/* Facebook Icon SVG */}
         <svg xmlns="http://www.w3.org/2000/svg" className="active:fill-cyan">
           <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
