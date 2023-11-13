@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import data from "./text-data/text-data.json";
 import logo from "./images/logo.svg";
-// import mobileBg from "./images/bg-header-mobile.png";
-
 
 import BigCenteredTitleDescription from './components/BigCenteredTitleDescription';
 import SmallLeftTitleDescription from './components/SmallLeftTitleDescription';

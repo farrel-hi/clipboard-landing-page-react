@@ -28,9 +28,6 @@ module.exports = {
     fontFamily:{
       display: ["Bai Jamjuree",'sans-serif']
     },
-    // fontSize:{
-    //   base: "18px"
-    // },
     extend: {
       backgroundImage:{
         'mobile-bg': "url('./images/bg-header-mobile.png')",
