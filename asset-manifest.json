@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clipboard-landing-page-react/static/css/main.c99062f3.css",
+    "main.js": "/clipboard-landing-page-react/static/js/main.66a57df0.js",
+    "static/js/787.97cab161.chunk.js": "/clipboard-landing-page-react/static/js/787.97cab161.chunk.js",
+    "static/media/image-computer.png": "/clipboard-landing-page-react/static/media/image-computer.65db67db202be4e74616.png",
+    "static/media/bg-header-desktop.png": "/clipboard-landing-page-react/static/media/bg-header-desktop.3d39ff8e4eec581d1f91.png",
+    "static/media/image-devices.png": "/clipboard-landing-page-react/static/media/image-devices.7a9f93355333984b7941.png",
+    "static/media/bg-header-mobile.png": "/clipboard-landing-page-react/static/media/bg-header-mobile.611a5565d2de8072be1f.png",
+    "static/media/icon-preview.svg": "/clipboard-landing-page-react/static/media/icon-preview.9d260cdcabe46fdc423492bfe2e317cf.svg",
+    "static/media/icon-blacklist.svg": "/clipboard-landing-page-react/static/media/icon-blacklist.00461066f8dc77314608696b24ffca29.svg",
+    "index.html": "/clipboard-landing-page-react/index.html",
+    "static/media/icon-text.svg": "/clipboard-landing-page-react/static/media/icon-text.72e88c25f84b1cf1d3f69a697f689f64.svg",
+    "static/media/logo.svg": "/clipboard-landing-page-react/static/media/logo.99709bee9527fac7b703e0053be7feda.svg",
+    "main.c99062f3.css.map": "/clipboard-landing-page-react/static/css/main.c99062f3.css.map",
+    "main.66a57df0.js.map": "/clipboard-landing-page-react/static/js/main.66a57df0.js.map",
+    "787.97cab161.chunk.js.map": "/clipboard-landing-page-react/static/js/787.97cab161.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c99062f3.css",
+    "static/js/main.66a57df0.js"
+  ]
+}
